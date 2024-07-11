@@ -1,6 +1,5 @@
 package com.javaex.ex03;
 
-import java.util.Arrays;
 
 public class MyList<T> {
 
