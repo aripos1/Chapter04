@@ -9,7 +9,7 @@ public class CircleList {
 
 	public CircleList() {
 		cArr = new Circle[3];
-		int crtPos = 0;
+		crtPos = 0;
 
 	}
 
@@ -26,18 +26,17 @@ public class CircleList {
 		return "CircleList [pArr=" + Arrays.toString(cArr) + "]";
 	}
 
-	public void add(Circle circle){
+	public void add(Circle circle) {
 		this.cArr[crtPos] = circle;
 		crtPos++;// 순차적으로 +1씩 추가
 	}
-	
+
 	public Circle get(int index) {
 		return cArr[index];
 	}
-	
+
 	public int size() {
 		return crtPos;
 	}
-	
-	
+
 }
